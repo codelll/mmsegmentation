@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'Posdamdataset'
-data_root = 'data/Potsdam/RGB图片和标签，分割与未分割'
+data_root = 'data/Potsdam/RGB'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 img_scale = (600, 600)
