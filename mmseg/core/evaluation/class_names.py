@@ -11,6 +11,10 @@ def cityscapes_classes():
         'bicycle'
     ]
 
+def potsdam_classes():
+    return [
+        'Impevious Surfaces', 'Buildings', 'Low Vegetation', 'Trees', 'Cars', 'Clutter/Background'
+    ]
 
 def ade_classes():
     """ADE20K class names for external use."""
@@ -60,6 +64,10 @@ def cityscapes_palette():
             [255, 0, 0], [0, 0, 142], [0, 0, 70], [0, 60, 100], [0, 80, 100],
             [0, 0, 230], [119, 11, 32]]
 
+def potsdam_palette():
+    return [
+        [255, 255, 255], [0, 0, 255], [0, 255, 255], [0, 255, 0], [255, 255, 0], [255, 0, 0]
+    ]
 
 def ade_palette():
     """ADE20K palette for external use."""
